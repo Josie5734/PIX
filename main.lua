@@ -6,9 +6,9 @@ function _init()
 
     player_init()
 
-    drawing_init() 
+    pix_init() 
 
-    ui_init()
+    ui_init() 
 
     palt(0,false) --set black to not transparent
     palt(4,true) --set brown to transparent - unlikely to ever be used
@@ -22,6 +22,8 @@ function _update()
 
     player_update()
 
+    pix_update()
+
 end
 
 
@@ -32,8 +34,8 @@ function _draw()
 
     ui_draw()
 
-    player_draw()
- 
-    drawing_draw()
+    player_draw() 
+
+    pix_draw()
 
 end
