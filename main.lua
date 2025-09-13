@@ -8,6 +8,8 @@ function _init()
 
     pix_init() 
 
+    level_init()
+
     ui_init() 
 
     palt(0,false) --set black to not transparent

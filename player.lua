@@ -48,7 +48,12 @@ function player_update()
 
         --left
         if btn(0) and not btn(1) and not btn(2) and not btn(3) then 
-            
+            --on each move
+                --check the color of the current grid position 
+                --if white, color black
+                --else, end line
+
+            --how to check for crashing into self
         end
 
         --right
